@@ -24,7 +24,7 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo_azul.png";
 import { i18n } from "../../translate/i18n";
 
 import { openApi } from "../../services/api";
@@ -44,6 +44,20 @@ const Copyright = () => {
 };
 
 const useStyles = makeStyles(theme => ({
+	root: {
+		width: "100vw",
+		height: "100vh",
+		// background: "linear-gradient(to right, #0000FF , #0000CD , #00008B)",
+		backgroundImage: "url(https://rockety.com/images/bg-rockety.jpg)",
+		backgroundRepeat: "no-repeat",
+		backgroundSize: "100% 100%",
+		backgroundPosition: "center",
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		justifyContent: "center",
+		textAlign: "center",
+	},
 	paper: {
 		marginTop: theme.spacing(8),
 		display: "flex",
