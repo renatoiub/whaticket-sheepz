@@ -21,8 +21,8 @@ const Copyright = () => {
 	return (
 		<Typography variant="body2" color="textSecondary" align="center">
 			{"Copyright "}
-			<Link color="inherit" href="https://infotechpluscariri.com.br">
-				InfoTechPlus
+			<Link color="inherit" href="https://rockety.com">
+				Rockety
 			</Link>{" "}
 			{new Date().getFullYear()}
 			{"."}
@@ -146,9 +146,7 @@ const Login = () => {
 							</Grid>
 						</Grid>} */}
 
-						<Link href="https://wa.me/message/AGJFAHYYAXKQN1" variant="body2">
-							Fale conosco no WhatsApp
-						</Link>
+						
 
 						<Copyright sx={{ mt: 5 }} />
 					</form>
