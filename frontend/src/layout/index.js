@@ -389,11 +389,11 @@ const LoggedInLayout = ({ children, themeToggle }) => {
             {/* {greaterThenSm && user?.profile === "admin" && getDateAndDifDays(user?.company?.dueDate).difData < 7 ? ( */}
             {greaterThenSm && user?.profile === "admin" && user?.company?.dueDate ? (
               <>
-                Olá <b>{user.name}</b>, Bem vindo a <b>Zap+</b>! (Ativo até {dateToClient(user?.company?.dueDate)})
+                Olá <b>{user.name}</b>, Bem vindo a <b>Rockety</b>! (Ativo até {dateToClient(user?.company?.dueDate)})
               </>
             ) : (
               <>
-                Olá  <b>{user.name}</b>, Bem vindo a <b>Zap+</b>!
+                Olá  <b>{user.name}</b>, Bem vindo a <b>Rockety</b>!
               </>
             )}
           </Typography>
