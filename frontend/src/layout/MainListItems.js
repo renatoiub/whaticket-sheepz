@@ -265,15 +265,15 @@ const MainListItems = (props) => {
 
   const useStyles = makeStyles({
     estiloIcones: {
-      color: '#0094bb', // Defina a cor desejada aqui
+      color: '#363442', // Defina a cor desejada aqui
       paddingTop: "1px",
       paddingBottom: "1px",
     },
     estiloIconeDash: {
-      color: '#0094bb', // Defina a cor desejada aqui
+      color: '#363442', // Defina a cor desejada aqui
     },
     estiloIconeTickets: {
-      color: '#0094bb', // Defina a cor desejada aqui
+      color: '#363442', // Defina a cor desejada aqui
     },
     link: {
       paddingTop: "1px",
