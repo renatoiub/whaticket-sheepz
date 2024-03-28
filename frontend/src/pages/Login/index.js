@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
 		width: "100vw",
 		height: "100vh",
 		// background: "linear-gradient(to right, #0000FF , #0000CD , #00008B)",
-		backgroundImage: "url(https://zapmais.net/assets/img/equipezapmais.jpg)",
+		backgroundImage: "url(https://rockety.com/images/bg-rockety.jpg)",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
 		backgroundPosition: "center",
