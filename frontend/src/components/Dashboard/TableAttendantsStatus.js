@@ -36,7 +36,7 @@ export function RatingBox ({ rating }) {
     const ratingTrunc = rating === null ? 0 : Math.trunc(rating);
     return <Rating
         defaultValue={ratingTrunc}
-        max={3}
+        max={5}
         readOnly
     />
 }
