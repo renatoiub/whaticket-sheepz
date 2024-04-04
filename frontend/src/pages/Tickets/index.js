@@ -7,7 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import TicketsManager from "../../components/TicketsManager/";
 import Ticket from "../../components/Ticket/";
 
-import logo from "../../assets/logo.png";
+import logo from "../../assets/sheepz-icon.png";
 
 import { i18n } from "../../translate/i18n";
 
